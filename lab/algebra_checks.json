@@ -1,0 +1,42 @@
+[
+  {
+    "d": 3,
+    "nonzero_betti_positions": 12,
+    "resolution_length": 4
+  },
+  {
+    "d": 4,
+    "nonzero_betti_positions": 21,
+    "resolution_length": 6
+  },
+  {
+    "d": 5,
+    "nonzero_betti_positions": 32,
+    "resolution_length": 8
+  },
+  {
+    "d": 6,
+    "nonzero_betti_positions": 45,
+    "resolution_length": 10
+  },
+  {
+    "d": 7,
+    "nonzero_betti_positions": 60,
+    "resolution_length": 12
+  },
+  {
+    "d": 8,
+    "nonzero_betti_positions": 77,
+    "resolution_length": 14
+  },
+  {
+    "d": 9,
+    "nonzero_betti_positions": 96,
+    "resolution_length": 16
+  },
+  {
+    "d": 10,
+    "nonzero_betti_positions": 117,
+    "resolution_length": 18
+  }
+]

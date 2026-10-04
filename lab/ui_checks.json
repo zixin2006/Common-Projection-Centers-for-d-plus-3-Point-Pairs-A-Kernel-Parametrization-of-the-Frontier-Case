@@ -1,0 +1,6 @@
+{
+  "handler_checks": 133,
+  "finite_canvas_operations": 3037044,
+  "browser_layout_verified": false,
+  "description": "Actual UI scripts exercised in a DOM/canvas stand-in; browser executable unavailable in build environment."
+}

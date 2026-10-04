@@ -1,0 +1,29 @@
+[
+  {
+    "d": 3,
+    "kernel_residual": 1.2387820549587201e-15,
+    "ordinary_samples": 92,
+    "ordinary_residual": 9.089468683088116e-15,
+    "exceptional_residual": 4.021466209680212e-15,
+    "contraction_distance": 3.992946086740377e-15,
+    "limit_distance_at_1e_4": 6.52595657037028e-05
+  },
+  {
+    "d": 4,
+    "kernel_residual": 1.3089336417583914e-15,
+    "ordinary_samples": 89,
+    "ordinary_residual": 3.9674500679946274e-15,
+    "exceptional_residual": 4.410911642875074e-15,
+    "contraction_distance": 1.2984033353468022e-14,
+    "limit_distance_at_1e_4": 7.177982513928432e-05
+  },
+  {
+    "d": 5,
+    "kernel_residual": 1.942521336275979e-15,
+    "ordinary_samples": 84,
+    "ordinary_residual": 7.593333583016322e-15,
+    "exceptional_residual": 4.581732584557613e-15,
+    "contraction_distance": 1.3306831196721357e-14,
+    "limit_distance_at_1e_4": 7.568447461823373e-05
+  }
+]

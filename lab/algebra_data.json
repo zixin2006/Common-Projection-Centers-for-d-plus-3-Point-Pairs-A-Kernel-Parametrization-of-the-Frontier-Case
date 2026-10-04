@@ -1,0 +1,5338 @@
+{
+  "3": {
+    "invariants": {
+      "d": 3,
+      "N": 6,
+      "scroll": [
+        1,
+        1
+      ],
+      "multidegree": [
+        2,
+        11,
+        2
+      ],
+      "segre_degree": 26,
+      "sectional_genus": 10,
+      "boundary_components": 12,
+      "boundary_nodes": 30,
+      "log_canonical_square": 26,
+      "complex_euler": 16,
+      "missing_sections": 2,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 2
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 1
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 10
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 10
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 8
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 29
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 8
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 18
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 18
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 10
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 4,
+        "coordinates": 4
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 9,
+        "coordinates": 9
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 16,
+        "coordinates": 16
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 25,
+        "coordinates": 25
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 36,
+        "coordinates": 36
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 49,
+        "coordinates": 49
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 4,
+        "coordinates": 4
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 18,
+        "coordinates": 16
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 34,
+        "coordinates": 34
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 52,
+        "coordinates": 52
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 72,
+        "coordinates": 72
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 94,
+        "coordinates": 94
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 118,
+        "coordinates": 118
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 9,
+        "coordinates": 9
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 34,
+        "coordinates": 34
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 61,
+        "coordinates": 61
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 90,
+        "coordinates": 90
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 121,
+        "coordinates": 121
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 154,
+        "coordinates": 154
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 189,
+        "coordinates": 189
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 16,
+        "coordinates": 16
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 52,
+        "coordinates": 52
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 90,
+        "coordinates": 90
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 130,
+        "coordinates": 130
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 172,
+        "coordinates": 172
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 216,
+        "coordinates": 216
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 262,
+        "coordinates": 262
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 25,
+        "coordinates": 25
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 72,
+        "coordinates": 72
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 121,
+        "coordinates": 121
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 172,
+        "coordinates": 172
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 225,
+        "coordinates": 225
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 280,
+        "coordinates": 280
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 337,
+        "coordinates": 337
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 36,
+        "coordinates": 36
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 94,
+        "coordinates": 94
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 154,
+        "coordinates": 154
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 216,
+        "coordinates": 216
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 280,
+        "coordinates": 280
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 346,
+        "coordinates": 346
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 414,
+        "coordinates": 414
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 49,
+        "coordinates": 49
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 118,
+        "coordinates": 118
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 189,
+        "coordinates": 189
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 262,
+        "coordinates": 262
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 337,
+        "coordinates": 337
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 414,
+        "coordinates": 414
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 493,
+        "coordinates": 493
+      }
+    ]
+  },
+  "4": {
+    "invariants": {
+      "d": 4,
+      "N": 7,
+      "scroll": [
+        1,
+        2
+      ],
+      "multidegree": [
+        3,
+        19,
+        3
+      ],
+      "segre_degree": 44,
+      "sectional_genus": 18,
+      "boundary_components": 14,
+      "boundary_nodes": 42,
+      "log_canonical_square": 43,
+      "complex_euler": 25,
+      "missing_sections": 3,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 3
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 3
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 21
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 3
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 21
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 2
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 33
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 99
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 2
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 33
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 15
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 123
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 123
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 15
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 48
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 139
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 48
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 51
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 51
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 18
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 5,
+        "coordinates": 5
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 12,
+        "coordinates": 12
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 22,
+        "coordinates": 22
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 35,
+        "coordinates": 35
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 51,
+        "coordinates": 51
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 70,
+        "coordinates": 70
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 5,
+        "coordinates": 5
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 28,
+        "coordinates": 25
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 54,
+        "coordinates": 54
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 83,
+        "coordinates": 83
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 115,
+        "coordinates": 115
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 150,
+        "coordinates": 150
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 188,
+        "coordinates": 188
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 12,
+        "coordinates": 12
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 54,
+        "coordinates": 54
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 99,
+        "coordinates": 99
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 147,
+        "coordinates": 147
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 198,
+        "coordinates": 198
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 252,
+        "coordinates": 252
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 309,
+        "coordinates": 309
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 22,
+        "coordinates": 22
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 83,
+        "coordinates": 83
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 147,
+        "coordinates": 147
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 214,
+        "coordinates": 214
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 284,
+        "coordinates": 284
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 357,
+        "coordinates": 357
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 433,
+        "coordinates": 433
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 35,
+        "coordinates": 35
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 115,
+        "coordinates": 115
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 198,
+        "coordinates": 198
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 284,
+        "coordinates": 284
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 373,
+        "coordinates": 373
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 465,
+        "coordinates": 465
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 560,
+        "coordinates": 560
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 51,
+        "coordinates": 51
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 150,
+        "coordinates": 150
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 252,
+        "coordinates": 252
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 357,
+        "coordinates": 357
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 465,
+        "coordinates": 465
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 576,
+        "coordinates": 576
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 690,
+        "coordinates": 690
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 70,
+        "coordinates": 70
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 188,
+        "coordinates": 188
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 309,
+        "coordinates": 309
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 433,
+        "coordinates": 433
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 560,
+        "coordinates": 560
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 690,
+        "coordinates": 690
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 823,
+        "coordinates": 823
+      }
+    ]
+  },
+  "5": {
+    "invariants": {
+      "d": 5,
+      "N": 8,
+      "scroll": [
+        2,
+        2
+      ],
+      "multidegree": [
+        4,
+        29,
+        4
+      ],
+      "segre_degree": 66,
+      "sectional_genus": 28,
+      "boundary_components": 16,
+      "boundary_nodes": 56,
+      "log_canonical_square": 64,
+      "complex_euler": 36,
+      "missing_sections": 4,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 4
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 6
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 36
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 6
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 36
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 8
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 84
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 244
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 8
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 84
+      },
+      {
+        "i": 3,
+        "p": 0,
+        "q": 4,
+        "value": 3
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 76
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 456
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 456
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 0,
+        "value": 3
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 76
+      },
+      {
+        "i": 4,
+        "p": 1,
+        "q": 5,
+        "value": 24
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 354
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 784
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 354
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 1,
+        "value": 24
+      },
+      {
+        "i": 5,
+        "p": 2,
+        "q": 5,
+        "value": 100
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 576
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 576
+      },
+      {
+        "i": 5,
+        "p": 5,
+        "q": 2,
+        "value": 100
+      },
+      {
+        "i": 6,
+        "p": 3,
+        "q": 5,
+        "value": 156
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 409
+      },
+      {
+        "i": 6,
+        "p": 5,
+        "q": 3,
+        "value": 156
+      },
+      {
+        "i": 7,
+        "p": 4,
+        "q": 5,
+        "value": 108
+      },
+      {
+        "i": 7,
+        "p": 5,
+        "q": 4,
+        "value": 108
+      },
+      {
+        "i": 8,
+        "p": 5,
+        "q": 5,
+        "value": 28
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 6,
+        "coordinates": 6
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 15,
+        "coordinates": 15
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 28,
+        "coordinates": 28
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 45,
+        "coordinates": 45
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 66,
+        "coordinates": 66
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 91,
+        "coordinates": 91
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 6,
+        "coordinates": 6
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 40,
+        "coordinates": 36
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 78,
+        "coordinates": 78
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 120,
+        "coordinates": 120
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 166,
+        "coordinates": 166
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 216,
+        "coordinates": 216
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 270,
+        "coordinates": 270
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 15,
+        "coordinates": 15
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 78,
+        "coordinates": 78
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 145,
+        "coordinates": 145
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 216,
+        "coordinates": 216
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 291,
+        "coordinates": 291
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 370,
+        "coordinates": 370
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 453,
+        "coordinates": 453
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 28,
+        "coordinates": 28
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 120,
+        "coordinates": 120
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 216,
+        "coordinates": 216
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 316,
+        "coordinates": 316
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 420,
+        "coordinates": 420
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 528,
+        "coordinates": 528
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 640,
+        "coordinates": 640
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 45,
+        "coordinates": 45
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 166,
+        "coordinates": 166
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 291,
+        "coordinates": 291
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 420,
+        "coordinates": 420
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 553,
+        "coordinates": 553
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 690,
+        "coordinates": 690
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 831,
+        "coordinates": 831
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 66,
+        "coordinates": 66
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 216,
+        "coordinates": 216
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 370,
+        "coordinates": 370
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 528,
+        "coordinates": 528
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 690,
+        "coordinates": 690
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 856,
+        "coordinates": 856
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 1026,
+        "coordinates": 1026
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 91,
+        "coordinates": 91
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 270,
+        "coordinates": 270
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 453,
+        "coordinates": 453
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 640,
+        "coordinates": 640
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 831,
+        "coordinates": 831
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 1026,
+        "coordinates": 1026
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 1225,
+        "coordinates": 1225
+      }
+    ]
+  },
+  "6": {
+    "invariants": {
+      "d": 6,
+      "N": 9,
+      "scroll": [
+        2,
+        3
+      ],
+      "multidegree": [
+        5,
+        41,
+        5
+      ],
+      "segre_degree": 92,
+      "sectional_genus": 40,
+      "boundary_components": 18,
+      "boundary_nodes": 72,
+      "log_canonical_square": 89,
+      "complex_euler": 49,
+      "missing_sections": 5,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 5
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 10
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 55
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 10
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 55
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 20
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 170
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 500
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 20
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 170
+      },
+      {
+        "i": 3,
+        "p": 0,
+        "q": 4,
+        "value": 15
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 230
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 1250
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 1250
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 0,
+        "value": 15
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 230
+      },
+      {
+        "i": 4,
+        "p": 0,
+        "q": 5,
+        "value": 4
+      },
+      {
+        "i": 4,
+        "p": 1,
+        "q": 5,
+        "value": 145
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 1450
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 2900
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 1450
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 0,
+        "value": 4
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 1,
+        "value": 145
+      },
+      {
+        "i": 5,
+        "p": 1,
+        "q": 6,
+        "value": 35
+      },
+      {
+        "i": 5,
+        "p": 2,
+        "q": 5,
+        "value": 815
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 3200
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 3200
+      },
+      {
+        "i": 5,
+        "p": 5,
+        "q": 2,
+        "value": 815
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 1,
+        "value": 35
+      },
+      {
+        "i": 6,
+        "p": 2,
+        "q": 6,
+        "value": 180
+      },
+      {
+        "i": 6,
+        "p": 3,
+        "q": 5,
+        "value": 1730
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 3425
+      },
+      {
+        "i": 6,
+        "p": 5,
+        "q": 3,
+        "value": 1730
+      },
+      {
+        "i": 6,
+        "p": 6,
+        "q": 2,
+        "value": 180
+      },
+      {
+        "i": 7,
+        "p": 3,
+        "q": 6,
+        "value": 370
+      },
+      {
+        "i": 7,
+        "p": 4,
+        "q": 5,
+        "value": 1810
+      },
+      {
+        "i": 7,
+        "p": 5,
+        "q": 4,
+        "value": 1810
+      },
+      {
+        "i": 7,
+        "p": 6,
+        "q": 3,
+        "value": 370
+      },
+      {
+        "i": 8,
+        "p": 4,
+        "q": 6,
+        "value": 380
+      },
+      {
+        "i": 8,
+        "p": 5,
+        "q": 5,
+        "value": 941
+      },
+      {
+        "i": 8,
+        "p": 6,
+        "q": 4,
+        "value": 380
+      },
+      {
+        "i": 9,
+        "p": 5,
+        "q": 6,
+        "value": 195
+      },
+      {
+        "i": 9,
+        "p": 6,
+        "q": 5,
+        "value": 195
+      },
+      {
+        "i": 10,
+        "p": 6,
+        "q": 6,
+        "value": 40
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 7,
+        "coordinates": 7
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 18,
+        "coordinates": 18
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 34,
+        "coordinates": 34
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 55,
+        "coordinates": 55
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 81,
+        "coordinates": 81
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 112,
+        "coordinates": 112
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 7,
+        "coordinates": 7
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 54,
+        "coordinates": 49
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 106,
+        "coordinates": 106
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 163,
+        "coordinates": 163
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 225,
+        "coordinates": 225
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 292,
+        "coordinates": 292
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 364,
+        "coordinates": 364
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 18,
+        "coordinates": 18
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 106,
+        "coordinates": 106
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 199,
+        "coordinates": 199
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 297,
+        "coordinates": 297
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 400,
+        "coordinates": 400
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 508,
+        "coordinates": 508
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 621,
+        "coordinates": 621
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 34,
+        "coordinates": 34
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 163,
+        "coordinates": 163
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 297,
+        "coordinates": 297
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 436,
+        "coordinates": 436
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 580,
+        "coordinates": 580
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 729,
+        "coordinates": 729
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 883,
+        "coordinates": 883
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 55,
+        "coordinates": 55
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 225,
+        "coordinates": 225
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 400,
+        "coordinates": 400
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 580,
+        "coordinates": 580
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 765,
+        "coordinates": 765
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 955,
+        "coordinates": 955
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 1150,
+        "coordinates": 1150
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 81,
+        "coordinates": 81
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 292,
+        "coordinates": 292
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 508,
+        "coordinates": 508
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 729,
+        "coordinates": 729
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 955,
+        "coordinates": 955
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 1186,
+        "coordinates": 1186
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 1422,
+        "coordinates": 1422
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 112,
+        "coordinates": 112
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 364,
+        "coordinates": 364
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 621,
+        "coordinates": 621
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 883,
+        "coordinates": 883
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 1150,
+        "coordinates": 1150
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 1422,
+        "coordinates": 1422
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 1699,
+        "coordinates": 1699
+      }
+    ]
+  },
+  "7": {
+    "invariants": {
+      "d": 7,
+      "N": 10,
+      "scroll": [
+        3,
+        3
+      ],
+      "multidegree": [
+        6,
+        55,
+        6
+      ],
+      "segre_degree": 122,
+      "sectional_genus": 54,
+      "boundary_components": 20,
+      "boundary_nodes": 90,
+      "log_canonical_square": 118,
+      "complex_euler": 64,
+      "missing_sections": 6,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 6
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 15
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 78
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 15
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 78
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 40
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 300
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 909
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 40
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 300
+      },
+      {
+        "i": 3,
+        "p": 0,
+        "q": 4,
+        "value": 45
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 540
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 2850
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 2850
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 0,
+        "value": 45
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 540
+      },
+      {
+        "i": 4,
+        "p": 0,
+        "q": 5,
+        "value": 24
+      },
+      {
+        "i": 4,
+        "p": 1,
+        "q": 5,
+        "value": 510
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 4395
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 8350
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 4395
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 0,
+        "value": 24
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 1,
+        "value": 510
+      },
+      {
+        "i": 5,
+        "p": 0,
+        "q": 6,
+        "value": 5
+      },
+      {
+        "i": 5,
+        "p": 1,
+        "q": 6,
+        "value": 246
+      },
+      {
+        "i": 5,
+        "p": 2,
+        "q": 5,
+        "value": 3690
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 12300
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 12300
+      },
+      {
+        "i": 5,
+        "p": 5,
+        "q": 2,
+        "value": 3690
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 0,
+        "value": 5
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 1,
+        "value": 246
+      },
+      {
+        "i": 6,
+        "p": 1,
+        "q": 7,
+        "value": 48
+      },
+      {
+        "i": 6,
+        "p": 2,
+        "q": 6,
+        "value": 1623
+      },
+      {
+        "i": 6,
+        "p": 3,
+        "q": 5,
+        "value": 9960
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 17625
+      },
+      {
+        "i": 6,
+        "p": 5,
+        "q": 3,
+        "value": 9960
+      },
+      {
+        "i": 6,
+        "p": 6,
+        "q": 2,
+        "value": 1623
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 1,
+        "value": 48
+      },
+      {
+        "i": 7,
+        "p": 2,
+        "q": 7,
+        "value": 294
+      },
+      {
+        "i": 7,
+        "p": 3,
+        "q": 6,
+        "value": 4250
+      },
+      {
+        "i": 7,
+        "p": 4,
+        "q": 5,
+        "value": 13980
+      },
+      {
+        "i": 7,
+        "p": 5,
+        "q": 4,
+        "value": 13980
+      },
+      {
+        "i": 7,
+        "p": 6,
+        "q": 3,
+        "value": 4250
+      },
+      {
+        "i": 7,
+        "p": 7,
+        "q": 2,
+        "value": 294
+      },
+      {
+        "i": 8,
+        "p": 3,
+        "q": 7,
+        "value": 750
+      },
+      {
+        "i": 8,
+        "p": 4,
+        "q": 6,
+        "value": 5865
+      },
+      {
+        "i": 8,
+        "p": 5,
+        "q": 5,
+        "value": 10926
+      },
+      {
+        "i": 8,
+        "p": 6,
+        "q": 4,
+        "value": 5865
+      },
+      {
+        "i": 8,
+        "p": 7,
+        "q": 3,
+        "value": 750
+      },
+      {
+        "i": 9,
+        "p": 4,
+        "q": 7,
+        "value": 1020
+      },
+      {
+        "i": 9,
+        "p": 5,
+        "q": 6,
+        "value": 4530
+      },
+      {
+        "i": 9,
+        "p": 6,
+        "q": 5,
+        "value": 4530
+      },
+      {
+        "i": 9,
+        "p": 7,
+        "q": 4,
+        "value": 1020
+      },
+      {
+        "i": 10,
+        "p": 5,
+        "q": 7,
+        "value": 780
+      },
+      {
+        "i": 10,
+        "p": 6,
+        "q": 6,
+        "value": 1861
+      },
+      {
+        "i": 10,
+        "p": 7,
+        "q": 5,
+        "value": 780
+      },
+      {
+        "i": 11,
+        "p": 6,
+        "q": 7,
+        "value": 318
+      },
+      {
+        "i": 11,
+        "p": 7,
+        "q": 6,
+        "value": 318
+      },
+      {
+        "i": 12,
+        "p": 7,
+        "q": 7,
+        "value": 54
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 8,
+        "coordinates": 8
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 21,
+        "coordinates": 21
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 40,
+        "coordinates": 40
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 65,
+        "coordinates": 65
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 96,
+        "coordinates": 96
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 133,
+        "coordinates": 133
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 8,
+        "coordinates": 8
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 70,
+        "coordinates": 64
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 138,
+        "coordinates": 138
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 212,
+        "coordinates": 212
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 292,
+        "coordinates": 292
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 378,
+        "coordinates": 378
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 470,
+        "coordinates": 470
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 21,
+        "coordinates": 21
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 138,
+        "coordinates": 138
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 261,
+        "coordinates": 261
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 390,
+        "coordinates": 390
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 525,
+        "coordinates": 525
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 666,
+        "coordinates": 666
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 813,
+        "coordinates": 813
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 40,
+        "coordinates": 40
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 212,
+        "coordinates": 212
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 390,
+        "coordinates": 390
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 574,
+        "coordinates": 574
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 764,
+        "coordinates": 764
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 960,
+        "coordinates": 960
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 1162,
+        "coordinates": 1162
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 65,
+        "coordinates": 65
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 292,
+        "coordinates": 292
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 525,
+        "coordinates": 525
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 764,
+        "coordinates": 764
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 1009,
+        "coordinates": 1009
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 1260,
+        "coordinates": 1260
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 1517,
+        "coordinates": 1517
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 96,
+        "coordinates": 96
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 378,
+        "coordinates": 378
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 666,
+        "coordinates": 666
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 960,
+        "coordinates": 960
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 1260,
+        "coordinates": 1260
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 1566,
+        "coordinates": 1566
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 1878,
+        "coordinates": 1878
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 133,
+        "coordinates": 133
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 470,
+        "coordinates": 470
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 813,
+        "coordinates": 813
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 1162,
+        "coordinates": 1162
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 1517,
+        "coordinates": 1517
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 1878,
+        "coordinates": 1878
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 2245,
+        "coordinates": 2245
+      }
+    ]
+  },
+  "8": {
+    "invariants": {
+      "d": 8,
+      "N": 11,
+      "scroll": [
+        3,
+        4
+      ],
+      "multidegree": [
+        7,
+        71,
+        7
+      ],
+      "segre_degree": 156,
+      "sectional_genus": 70,
+      "boundary_components": 22,
+      "boundary_nodes": 110,
+      "log_canonical_square": 151,
+      "complex_euler": 81,
+      "missing_sections": 7,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 7
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 21
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 105
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 21
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 105
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 70
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 483
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 1519
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 70
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 483
+      },
+      {
+        "i": 3,
+        "p": 0,
+        "q": 4,
+        "value": 105
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 1085
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 5733
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 5733
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 0,
+        "value": 105
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 1085
+      },
+      {
+        "i": 4,
+        "p": 0,
+        "q": 5,
+        "value": 84
+      },
+      {
+        "i": 4,
+        "p": 1,
+        "q": 5,
+        "value": 1365
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 11025
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 20335
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 11025
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 0,
+        "value": 84
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 1,
+        "value": 1365
+      },
+      {
+        "i": 5,
+        "p": 0,
+        "q": 6,
+        "value": 35
+      },
+      {
+        "i": 5,
+        "p": 1,
+        "q": 6,
+        "value": 987
+      },
+      {
+        "i": 5,
+        "p": 2,
+        "q": 5,
+        "value": 12299
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 37485
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 37485
+      },
+      {
+        "i": 5,
+        "p": 5,
+        "q": 2,
+        "value": 12299
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 0,
+        "value": 35
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 1,
+        "value": 987
+      },
+      {
+        "i": 6,
+        "p": 0,
+        "q": 7,
+        "value": 6
+      },
+      {
+        "i": 6,
+        "p": 1,
+        "q": 7,
+        "value": 385
+      },
+      {
+        "i": 6,
+        "p": 2,
+        "q": 6,
+        "value": 8085
+      },
+      {
+        "i": 6,
+        "p": 3,
+        "q": 5,
+        "value": 40425
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 67375
+      },
+      {
+        "i": 6,
+        "p": 5,
+        "q": 3,
+        "value": 40425
+      },
+      {
+        "i": 6,
+        "p": 6,
+        "q": 2,
+        "value": 8085
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 0,
+        "value": 6
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 1,
+        "value": 385
+      },
+      {
+        "i": 7,
+        "p": 1,
+        "q": 8,
+        "value": 63
+      },
+      {
+        "i": 7,
+        "p": 2,
+        "q": 7,
+        "value": 2919
+      },
+      {
+        "i": 7,
+        "p": 3,
+        "q": 6,
+        "value": 25823
+      },
+      {
+        "i": 7,
+        "p": 4,
+        "q": 5,
+        "value": 71295
+      },
+      {
+        "i": 7,
+        "p": 5,
+        "q": 4,
+        "value": 71295
+      },
+      {
+        "i": 7,
+        "p": 6,
+        "q": 3,
+        "value": 25823
+      },
+      {
+        "i": 7,
+        "p": 7,
+        "q": 2,
+        "value": 2919
+      },
+      {
+        "i": 7,
+        "p": 8,
+        "q": 1,
+        "value": 63
+      },
+      {
+        "i": 8,
+        "p": 2,
+        "q": 8,
+        "value": 448
+      },
+      {
+        "i": 8,
+        "p": 3,
+        "q": 7,
+        "value": 9093
+      },
+      {
+        "i": 8,
+        "p": 4,
+        "q": 6,
+        "value": 44835
+      },
+      {
+        "i": 8,
+        "p": 5,
+        "q": 5,
+        "value": 74431
+      },
+      {
+        "i": 8,
+        "p": 6,
+        "q": 4,
+        "value": 44835
+      },
+      {
+        "i": 8,
+        "p": 7,
+        "q": 3,
+        "value": 9093
+      },
+      {
+        "i": 8,
+        "p": 8,
+        "q": 2,
+        "value": 448
+      },
+      {
+        "i": 9,
+        "p": 3,
+        "q": 8,
+        "value": 1365
+      },
+      {
+        "i": 9,
+        "p": 4,
+        "q": 7,
+        "value": 15575
+      },
+      {
+        "i": 9,
+        "p": 5,
+        "q": 6,
+        "value": 46305
+      },
+      {
+        "i": 9,
+        "p": 6,
+        "q": 5,
+        "value": 46305
+      },
+      {
+        "i": 9,
+        "p": 7,
+        "q": 4,
+        "value": 15575
+      },
+      {
+        "i": 9,
+        "p": 8,
+        "q": 3,
+        "value": 1365
+      },
+      {
+        "i": 10,
+        "p": 4,
+        "q": 8,
+        "value": 2310
+      },
+      {
+        "i": 10,
+        "p": 5,
+        "q": 7,
+        "value": 15939
+      },
+      {
+        "i": 10,
+        "p": 6,
+        "q": 6,
+        "value": 28567
+      },
+      {
+        "i": 10,
+        "p": 7,
+        "q": 5,
+        "value": 15939
+      },
+      {
+        "i": 10,
+        "p": 8,
+        "q": 4,
+        "value": 2310
+      },
+      {
+        "i": 11,
+        "p": 5,
+        "q": 8,
+        "value": 2345
+      },
+      {
+        "i": 11,
+        "p": 6,
+        "q": 7,
+        "value": 9765
+      },
+      {
+        "i": 11,
+        "p": 7,
+        "q": 6,
+        "value": 9765
+      },
+      {
+        "i": 11,
+        "p": 8,
+        "q": 5,
+        "value": 2345
+      },
+      {
+        "i": 12,
+        "p": 6,
+        "q": 8,
+        "value": 1428
+      },
+      {
+        "i": 12,
+        "p": 7,
+        "q": 7,
+        "value": 3319
+      },
+      {
+        "i": 12,
+        "p": 8,
+        "q": 6,
+        "value": 1428
+      },
+      {
+        "i": 13,
+        "p": 7,
+        "q": 8,
+        "value": 483
+      },
+      {
+        "i": 13,
+        "p": 8,
+        "q": 7,
+        "value": 483
+      },
+      {
+        "i": 14,
+        "p": 8,
+        "q": 8,
+        "value": 70
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 9,
+        "coordinates": 9
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 24,
+        "coordinates": 24
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 46,
+        "coordinates": 46
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 75,
+        "coordinates": 75
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 111,
+        "coordinates": 111
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 154,
+        "coordinates": 154
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 9,
+        "coordinates": 9
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 88,
+        "coordinates": 81
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 174,
+        "coordinates": 174
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 267,
+        "coordinates": 267
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 367,
+        "coordinates": 367
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 474,
+        "coordinates": 474
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 588,
+        "coordinates": 588
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 24,
+        "coordinates": 24
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 174,
+        "coordinates": 174
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 331,
+        "coordinates": 331
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 495,
+        "coordinates": 495
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 666,
+        "coordinates": 666
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 844,
+        "coordinates": 844
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 1029,
+        "coordinates": 1029
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 46,
+        "coordinates": 46
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 267,
+        "coordinates": 267
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 495,
+        "coordinates": 495
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 730,
+        "coordinates": 730
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 972,
+        "coordinates": 972
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 1221,
+        "coordinates": 1221
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 1477,
+        "coordinates": 1477
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 75,
+        "coordinates": 75
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 367,
+        "coordinates": 367
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 666,
+        "coordinates": 666
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 972,
+        "coordinates": 972
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 1285,
+        "coordinates": 1285
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 1605,
+        "coordinates": 1605
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 1932,
+        "coordinates": 1932
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 111,
+        "coordinates": 111
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 474,
+        "coordinates": 474
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 844,
+        "coordinates": 844
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 1221,
+        "coordinates": 1221
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 1605,
+        "coordinates": 1605
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 1996,
+        "coordinates": 1996
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 2394,
+        "coordinates": 2394
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 154,
+        "coordinates": 154
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 588,
+        "coordinates": 588
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 1029,
+        "coordinates": 1029
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 1477,
+        "coordinates": 1477
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 1932,
+        "coordinates": 1932
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 2394,
+        "coordinates": 2394
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 2863,
+        "coordinates": 2863
+      }
+    ]
+  },
+  "9": {
+    "invariants": {
+      "d": 9,
+      "N": 12,
+      "scroll": [
+        4,
+        4
+      ],
+      "multidegree": [
+        8,
+        89,
+        8
+      ],
+      "segre_degree": 194,
+      "sectional_genus": 88,
+      "boundary_components": 24,
+      "boundary_nodes": 132,
+      "log_canonical_square": 188,
+      "complex_euler": 100,
+      "missing_sections": 8,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 8
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 28
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 136
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 28
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 136
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 112
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 728
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 2384
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 112
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 728
+      },
+      {
+        "i": 3,
+        "p": 0,
+        "q": 4,
+        "value": 210
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 1960
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 10528
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 10528
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 0,
+        "value": 210
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 1960
+      },
+      {
+        "i": 4,
+        "p": 0,
+        "q": 5,
+        "value": 224
+      },
+      {
+        "i": 4,
+        "p": 1,
+        "q": 5,
+        "value": 3080
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 24248
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 43904
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 24248
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 0,
+        "value": 224
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 1,
+        "value": 3080
+      },
+      {
+        "i": 5,
+        "p": 0,
+        "q": 6,
+        "value": 140
+      },
+      {
+        "i": 5,
+        "p": 1,
+        "q": 6,
+        "value": 2968
+      },
+      {
+        "i": 5,
+        "p": 2,
+        "q": 5,
+        "value": 33712
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 97216
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 97216
+      },
+      {
+        "i": 5,
+        "p": 5,
+        "q": 2,
+        "value": 33712
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 0,
+        "value": 140
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 1,
+        "value": 2968
+      },
+      {
+        "i": 6,
+        "p": 0,
+        "q": 7,
+        "value": 48
+      },
+      {
+        "i": 6,
+        "p": 1,
+        "q": 7,
+        "value": 1736
+      },
+      {
+        "i": 6,
+        "p": 2,
+        "q": 6,
+        "value": 29456
+      },
+      {
+        "i": 6,
+        "p": 3,
+        "q": 5,
+        "value": 130928
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 210308
+      },
+      {
+        "i": 6,
+        "p": 5,
+        "q": 3,
+        "value": 130928
+      },
+      {
+        "i": 6,
+        "p": 6,
+        "q": 2,
+        "value": 29456
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 0,
+        "value": 48
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 1,
+        "value": 1736
+      },
+      {
+        "i": 7,
+        "p": 0,
+        "q": 8,
+        "value": 7
+      },
+      {
+        "i": 7,
+        "p": 1,
+        "q": 8,
+        "value": 568
+      },
+      {
+        "i": 7,
+        "p": 2,
+        "q": 7,
+        "value": 15904
+      },
+      {
+        "i": 7,
+        "p": 3,
+        "q": 6,
+        "value": 111328
+      },
+      {
+        "i": 7,
+        "p": 4,
+        "q": 5,
+        "value": 278320
+      },
+      {
+        "i": 7,
+        "p": 5,
+        "q": 4,
+        "value": 278320
+      },
+      {
+        "i": 7,
+        "p": 6,
+        "q": 3,
+        "value": 111328
+      },
+      {
+        "i": 7,
+        "p": 7,
+        "q": 2,
+        "value": 15904
+      },
+      {
+        "i": 7,
+        "p": 8,
+        "q": 0,
+        "value": 7
+      },
+      {
+        "i": 7,
+        "p": 8,
+        "q": 1,
+        "value": 568
+      },
+      {
+        "i": 8,
+        "p": 1,
+        "q": 9,
+        "value": 80
+      },
+      {
+        "i": 8,
+        "p": 2,
+        "q": 8,
+        "value": 4868
+      },
+      {
+        "i": 8,
+        "p": 3,
+        "q": 7,
+        "value": 58688
+      },
+      {
+        "i": 8,
+        "p": 4,
+        "q": 6,
+        "value": 233240
+      },
+      {
+        "i": 8,
+        "p": 5,
+        "q": 5,
+        "value": 363776
+      },
+      {
+        "i": 8,
+        "p": 6,
+        "q": 4,
+        "value": 233240
+      },
+      {
+        "i": 8,
+        "p": 7,
+        "q": 3,
+        "value": 58688
+      },
+      {
+        "i": 8,
+        "p": 8,
+        "q": 2,
+        "value": 4868
+      },
+      {
+        "i": 8,
+        "p": 9,
+        "q": 1,
+        "value": 80
+      },
+      {
+        "i": 9,
+        "p": 2,
+        "q": 9,
+        "value": 648
+      },
+      {
+        "i": 9,
+        "p": 3,
+        "q": 8,
+        "value": 17584
+      },
+      {
+        "i": 9,
+        "p": 4,
+        "q": 7,
+        "value": 121408
+      },
+      {
+        "i": 9,
+        "p": 5,
+        "q": 6,
+        "value": 301840
+      },
+      {
+        "i": 9,
+        "p": 6,
+        "q": 5,
+        "value": 301840
+      },
+      {
+        "i": 9,
+        "p": 7,
+        "q": 4,
+        "value": 121408
+      },
+      {
+        "i": 9,
+        "p": 8,
+        "q": 3,
+        "value": 17584
+      },
+      {
+        "i": 9,
+        "p": 9,
+        "q": 2,
+        "value": 648
+      },
+      {
+        "i": 10,
+        "p": 3,
+        "q": 9,
+        "value": 2296
+      },
+      {
+        "i": 10,
+        "p": 4,
+        "q": 8,
+        "value": 35966
+      },
+      {
+        "i": 10,
+        "p": 5,
+        "q": 7,
+        "value": 155792
+      },
+      {
+        "i": 10,
+        "p": 6,
+        "q": 6,
+        "value": 248528
+      },
+      {
+        "i": 10,
+        "p": 7,
+        "q": 5,
+        "value": 155792
+      },
+      {
+        "i": 10,
+        "p": 8,
+        "q": 4,
+        "value": 35966
+      },
+      {
+        "i": 10,
+        "p": 9,
+        "q": 3,
+        "value": 2296
+      },
+      {
+        "i": 11,
+        "p": 4,
+        "q": 9,
+        "value": 4648
+      },
+      {
+        "i": 11,
+        "p": 5,
+        "q": 8,
+        "value": 45808
+      },
+      {
+        "i": 11,
+        "p": 6,
+        "q": 7,
+        "value": 127456
+      },
+      {
+        "i": 11,
+        "p": 7,
+        "q": 6,
+        "value": 127456
+      },
+      {
+        "i": 11,
+        "p": 8,
+        "q": 5,
+        "value": 45808
+      },
+      {
+        "i": 11,
+        "p": 9,
+        "q": 4,
+        "value": 4648
+      },
+      {
+        "i": 12,
+        "p": 5,
+        "q": 9,
+        "value": 5880
+      },
+      {
+        "i": 12,
+        "p": 6,
+        "q": 8,
+        "value": 37268
+      },
+      {
+        "i": 12,
+        "p": 7,
+        "q": 7,
+        "value": 65024
+      },
+      {
+        "i": 12,
+        "p": 8,
+        "q": 6,
+        "value": 37268
+      },
+      {
+        "i": 12,
+        "p": 9,
+        "q": 5,
+        "value": 5880
+      },
+      {
+        "i": 13,
+        "p": 6,
+        "q": 9,
+        "value": 4760
+      },
+      {
+        "i": 13,
+        "p": 7,
+        "q": 8,
+        "value": 18928
+      },
+      {
+        "i": 13,
+        "p": 8,
+        "q": 7,
+        "value": 18928
+      },
+      {
+        "i": 13,
+        "p": 9,
+        "q": 6,
+        "value": 4760
+      },
+      {
+        "i": 14,
+        "p": 7,
+        "q": 9,
+        "value": 2408
+      },
+      {
+        "i": 14,
+        "p": 8,
+        "q": 8,
+        "value": 5489
+      },
+      {
+        "i": 14,
+        "p": 9,
+        "q": 7,
+        "value": 2408
+      },
+      {
+        "i": 15,
+        "p": 8,
+        "q": 9,
+        "value": 696
+      },
+      {
+        "i": 15,
+        "p": 9,
+        "q": 8,
+        "value": 696
+      },
+      {
+        "i": 16,
+        "p": 9,
+        "q": 9,
+        "value": 88
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 10,
+        "coordinates": 10
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 27,
+        "coordinates": 27
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 52,
+        "coordinates": 52
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 85,
+        "coordinates": 85
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 126,
+        "coordinates": 126
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 175,
+        "coordinates": 175
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 10,
+        "coordinates": 10
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 108,
+        "coordinates": 100
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 214,
+        "coordinates": 214
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 328,
+        "coordinates": 328
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 450,
+        "coordinates": 450
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 580,
+        "coordinates": 580
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 718,
+        "coordinates": 718
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 27,
+        "coordinates": 27
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 214,
+        "coordinates": 214
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 409,
+        "coordinates": 409
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 612,
+        "coordinates": 612
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 823,
+        "coordinates": 823
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 1042,
+        "coordinates": 1042
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 1269,
+        "coordinates": 1269
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 52,
+        "coordinates": 52
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 328,
+        "coordinates": 328
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 612,
+        "coordinates": 612
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 904,
+        "coordinates": 904
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 1204,
+        "coordinates": 1204
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 1512,
+        "coordinates": 1512
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 1828,
+        "coordinates": 1828
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 85,
+        "coordinates": 85
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 450,
+        "coordinates": 450
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 823,
+        "coordinates": 823
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 1204,
+        "coordinates": 1204
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 1593,
+        "coordinates": 1593
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 1990,
+        "coordinates": 1990
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 2395,
+        "coordinates": 2395
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 126,
+        "coordinates": 126
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 580,
+        "coordinates": 580
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 1042,
+        "coordinates": 1042
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 1512,
+        "coordinates": 1512
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 1990,
+        "coordinates": 1990
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 2476,
+        "coordinates": 2476
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 2970,
+        "coordinates": 2970
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 175,
+        "coordinates": 175
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 718,
+        "coordinates": 718
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 1269,
+        "coordinates": 1269
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 1828,
+        "coordinates": 1828
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 2395,
+        "coordinates": 2395
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 2970,
+        "coordinates": 2970
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 3553,
+        "coordinates": 3553
+      }
+    ]
+  },
+  "10": {
+    "invariants": {
+      "d": 10,
+      "N": 13,
+      "scroll": [
+        4,
+        5
+      ],
+      "multidegree": [
+        9,
+        109,
+        9
+      ],
+      "segre_degree": 236,
+      "sectional_genus": 108,
+      "boundary_components": 26,
+      "boundary_nodes": 156,
+      "log_canonical_square": 229,
+      "complex_euler": 121,
+      "missing_sections": 9,
+      "normalization_regularity": 2,
+      "coordinate_regularity": 3
+    },
+    "betti": [
+      {
+        "i": 0,
+        "p": 0,
+        "q": 0,
+        "value": 1
+      },
+      {
+        "i": 0,
+        "p": 1,
+        "q": 1,
+        "value": 9
+      },
+      {
+        "i": 1,
+        "p": 0,
+        "q": 2,
+        "value": 36
+      },
+      {
+        "i": 1,
+        "p": 1,
+        "q": 2,
+        "value": 171
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 0,
+        "value": 36
+      },
+      {
+        "i": 1,
+        "p": 2,
+        "q": 1,
+        "value": 171
+      },
+      {
+        "i": 2,
+        "p": 0,
+        "q": 3,
+        "value": 168
+      },
+      {
+        "i": 2,
+        "p": 1,
+        "q": 3,
+        "value": 1044
+      },
+      {
+        "i": 2,
+        "p": 2,
+        "q": 2,
+        "value": 3564
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 0,
+        "value": 168
+      },
+      {
+        "i": 2,
+        "p": 3,
+        "q": 1,
+        "value": 1044
+      },
+      {
+        "i": 3,
+        "p": 0,
+        "q": 4,
+        "value": 378
+      },
+      {
+        "i": 3,
+        "p": 1,
+        "q": 4,
+        "value": 3276
+      },
+      {
+        "i": 3,
+        "p": 2,
+        "q": 3,
+        "value": 18036
+      },
+      {
+        "i": 3,
+        "p": 3,
+        "q": 2,
+        "value": 18036
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 0,
+        "value": 378
+      },
+      {
+        "i": 3,
+        "p": 4,
+        "q": 1,
+        "value": 3276
+      },
+      {
+        "i": 4,
+        "p": 0,
+        "q": 5,
+        "value": 504
+      },
+      {
+        "i": 4,
+        "p": 1,
+        "q": 5,
+        "value": 6174
+      },
+      {
+        "i": 4,
+        "p": 2,
+        "q": 4,
+        "value": 48384
+      },
+      {
+        "i": 4,
+        "p": 3,
+        "q": 3,
+        "value": 86544
+      },
+      {
+        "i": 4,
+        "p": 4,
+        "q": 2,
+        "value": 48384
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 0,
+        "value": 504
+      },
+      {
+        "i": 4,
+        "p": 5,
+        "q": 1,
+        "value": 6174
+      },
+      {
+        "i": 5,
+        "p": 0,
+        "q": 6,
+        "value": 420
+      },
+      {
+        "i": 5,
+        "p": 1,
+        "q": 6,
+        "value": 7434
+      },
+      {
+        "i": 5,
+        "p": 2,
+        "q": 5,
+        "value": 80514
+      },
+      {
+        "i": 5,
+        "p": 3,
+        "q": 4,
+        "value": 223776
+      },
+      {
+        "i": 5,
+        "p": 4,
+        "q": 3,
+        "value": 223776
+      },
+      {
+        "i": 5,
+        "p": 5,
+        "q": 2,
+        "value": 80514
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 0,
+        "value": 420
+      },
+      {
+        "i": 5,
+        "p": 6,
+        "q": 1,
+        "value": 7434
+      },
+      {
+        "i": 6,
+        "p": 0,
+        "q": 7,
+        "value": 216
+      },
+      {
+        "i": 6,
+        "p": 1,
+        "q": 7,
+        "value": 5796
+      },
+      {
+        "i": 6,
+        "p": 2,
+        "q": 6,
+        "value": 87696
+      },
+      {
+        "i": 6,
+        "p": 3,
+        "q": 5,
+        "value": 361368
+      },
+      {
+        "i": 6,
+        "p": 4,
+        "q": 4,
+        "value": 566244
+      },
+      {
+        "i": 6,
+        "p": 5,
+        "q": 3,
+        "value": 361368
+      },
+      {
+        "i": 6,
+        "p": 6,
+        "q": 2,
+        "value": 87696
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 0,
+        "value": 216
+      },
+      {
+        "i": 6,
+        "p": 7,
+        "q": 1,
+        "value": 5796
+      },
+      {
+        "i": 7,
+        "p": 0,
+        "q": 8,
+        "value": 63
+      },
+      {
+        "i": 7,
+        "p": 1,
+        "q": 8,
+        "value": 2844
+      },
+      {
+        "i": 7,
+        "p": 2,
+        "q": 7,
+        "value": 62964
+      },
+      {
+        "i": 7,
+        "p": 3,
+        "q": 6,
+        "value": 383544
+      },
+      {
+        "i": 7,
+        "p": 4,
+        "q": 5,
+        "value": 899640
+      },
+      {
+        "i": 7,
+        "p": 5,
+        "q": 4,
+        "value": 899640
+      },
+      {
+        "i": 7,
+        "p": 6,
+        "q": 3,
+        "value": 383544
+      },
+      {
+        "i": 7,
+        "p": 7,
+        "q": 2,
+        "value": 62964
+      },
+      {
+        "i": 7,
+        "p": 8,
+        "q": 0,
+        "value": 63
+      },
+      {
+        "i": 7,
+        "p": 8,
+        "q": 1,
+        "value": 2844
+      },
+      {
+        "i": 8,
+        "p": 0,
+        "q": 9,
+        "value": 8
+      },
+      {
+        "i": 8,
+        "p": 1,
+        "q": 9,
+        "value": 801
+      },
+      {
+        "i": 8,
+        "p": 2,
+        "q": 8,
+        "value": 28836
+      },
+      {
+        "i": 8,
+        "p": 3,
+        "q": 7,
+        "value": 269136
+      },
+      {
+        "i": 8,
+        "p": 4,
+        "q": 6,
+        "value": 941976
+      },
+      {
+        "i": 8,
+        "p": 5,
+        "q": 5,
+        "value": 1412964
+      },
+      {
+        "i": 8,
+        "p": 6,
+        "q": 4,
+        "value": 941976
+      },
+      {
+        "i": 8,
+        "p": 7,
+        "q": 3,
+        "value": 269136
+      },
+      {
+        "i": 8,
+        "p": 8,
+        "q": 2,
+        "value": 28836
+      },
+      {
+        "i": 8,
+        "p": 9,
+        "q": 0,
+        "value": 8
+      },
+      {
+        "i": 8,
+        "p": 9,
+        "q": 1,
+        "value": 801
+      },
+      {
+        "i": 9,
+        "p": 1,
+        "q": 10,
+        "value": 99
+      },
+      {
+        "i": 9,
+        "p": 2,
+        "q": 9,
+        "value": 7659
+      },
+      {
+        "i": 9,
+        "p": 3,
+        "q": 8,
+        "value": 120744
+      },
+      {
+        "i": 9,
+        "p": 4,
+        "q": 7,
+        "value": 653184
+      },
+      {
+        "i": 9,
+        "p": 5,
+        "q": 6,
+        "value": 1465884
+      },
+      {
+        "i": 9,
+        "p": 6,
+        "q": 5,
+        "value": 1465884
+      },
+      {
+        "i": 9,
+        "p": 7,
+        "q": 4,
+        "value": 653184
+      },
+      {
+        "i": 9,
+        "p": 8,
+        "q": 3,
+        "value": 120744
+      },
+      {
+        "i": 9,
+        "p": 9,
+        "q": 2,
+        "value": 7659
+      },
+      {
+        "i": 9,
+        "p": 10,
+        "q": 1,
+        "value": 99
+      },
+      {
+        "i": 10,
+        "p": 2,
+        "q": 10,
+        "value": 900
+      },
+      {
+        "i": 10,
+        "p": 3,
+        "q": 9,
+        "value": 31476
+      },
+      {
+        "i": 10,
+        "p": 4,
+        "q": 8,
+        "value": 289926
+      },
+      {
+        "i": 10,
+        "p": 5,
+        "q": 7,
+        "value": 1008504
+      },
+      {
+        "i": 10,
+        "p": 6,
+        "q": 6,
+        "value": 1509984
+      },
+      {
+        "i": 10,
+        "p": 7,
+        "q": 5,
+        "value": 1008504
+      },
+      {
+        "i": 10,
+        "p": 8,
+        "q": 4,
+        "value": 289926
+      },
+      {
+        "i": 10,
+        "p": 9,
+        "q": 3,
+        "value": 31476
+      },
+      {
+        "i": 10,
+        "p": 10,
+        "q": 2,
+        "value": 900
+      },
+      {
+        "i": 11,
+        "p": 3,
+        "q": 10,
+        "value": 3636
+      },
+      {
+        "i": 11,
+        "p": 4,
+        "q": 9,
+        "value": 74844
+      },
+      {
+        "i": 11,
+        "p": 5,
+        "q": 8,
+        "value": 444528
+      },
+      {
+        "i": 11,
+        "p": 6,
+        "q": 7,
+        "value": 1032696
+      },
+      {
+        "i": 11,
+        "p": 7,
+        "q": 6,
+        "value": 1032696
+      },
+      {
+        "i": 11,
+        "p": 8,
+        "q": 5,
+        "value": 444528
+      },
+      {
+        "i": 11,
+        "p": 9,
+        "q": 4,
+        "value": 74844
+      },
+      {
+        "i": 11,
+        "p": 10,
+        "q": 3,
+        "value": 3636
+      },
+      {
+        "i": 12,
+        "p": 4,
+        "q": 10,
+        "value": 8568
+      },
+      {
+        "i": 12,
+        "p": 5,
+        "q": 9,
+        "value": 114030
+      },
+      {
+        "i": 12,
+        "p": 6,
+        "q": 8,
+        "value": 452844
+      },
+      {
+        "i": 12,
+        "p": 7,
+        "q": 7,
+        "value": 702864
+      },
+      {
+        "i": 12,
+        "p": 8,
+        "q": 6,
+        "value": 452844
+      },
+      {
+        "i": 12,
+        "p": 9,
+        "q": 5,
+        "value": 114030
+      },
+      {
+        "i": 12,
+        "p": 10,
+        "q": 4,
+        "value": 8568
+      },
+      {
+        "i": 13,
+        "p": 5,
+        "q": 10,
+        "value": 12978
+      },
+      {
+        "i": 13,
+        "p": 6,
+        "q": 9,
+        "value": 115626
+      },
+      {
+        "i": 13,
+        "p": 7,
+        "q": 8,
+        "value": 306936
+      },
+      {
+        "i": 13,
+        "p": 8,
+        "q": 7,
+        "value": 306936
+      },
+      {
+        "i": 13,
+        "p": 9,
+        "q": 6,
+        "value": 115626
+      },
+      {
+        "i": 13,
+        "p": 10,
+        "q": 5,
+        "value": 12978
+      },
+      {
+        "i": 14,
+        "p": 6,
+        "q": 10,
+        "value": 13104
+      },
+      {
+        "i": 14,
+        "p": 7,
+        "q": 9,
+        "value": 78084
+      },
+      {
+        "i": 14,
+        "p": 8,
+        "q": 8,
+        "value": 133569
+      },
+      {
+        "i": 14,
+        "p": 9,
+        "q": 7,
+        "value": 78084
+      },
+      {
+        "i": 14,
+        "p": 10,
+        "q": 6,
+        "value": 13104
+      },
+      {
+        "i": 15,
+        "p": 7,
+        "q": 10,
+        "value": 8820
+      },
+      {
+        "i": 15,
+        "p": 8,
+        "q": 9,
+        "value": 33876
+      },
+      {
+        "i": 15,
+        "p": 9,
+        "q": 8,
+        "value": 33876
+      },
+      {
+        "i": 15,
+        "p": 10,
+        "q": 7,
+        "value": 8820
+      },
+      {
+        "i": 16,
+        "p": 8,
+        "q": 10,
+        "value": 3816
+      },
+      {
+        "i": 16,
+        "p": 9,
+        "q": 9,
+        "value": 8569
+      },
+      {
+        "i": 16,
+        "p": 10,
+        "q": 8,
+        "value": 3816
+      },
+      {
+        "i": 17,
+        "p": 9,
+        "q": 10,
+        "value": 963
+      },
+      {
+        "i": 17,
+        "p": 10,
+        "q": 9,
+        "value": 963
+      },
+      {
+        "i": 18,
+        "p": 10,
+        "q": 10,
+        "value": 108
+      }
+    ],
+    "hilbert": [
+      {
+        "p": 0,
+        "q": 0,
+        "sections": 1,
+        "coordinates": 1
+      },
+      {
+        "p": 0,
+        "q": 1,
+        "sections": 11,
+        "coordinates": 11
+      },
+      {
+        "p": 0,
+        "q": 2,
+        "sections": 30,
+        "coordinates": 30
+      },
+      {
+        "p": 0,
+        "q": 3,
+        "sections": 58,
+        "coordinates": 58
+      },
+      {
+        "p": 0,
+        "q": 4,
+        "sections": 95,
+        "coordinates": 95
+      },
+      {
+        "p": 0,
+        "q": 5,
+        "sections": 141,
+        "coordinates": 141
+      },
+      {
+        "p": 0,
+        "q": 6,
+        "sections": 196,
+        "coordinates": 196
+      },
+      {
+        "p": 1,
+        "q": 0,
+        "sections": 11,
+        "coordinates": 11
+      },
+      {
+        "p": 1,
+        "q": 1,
+        "sections": 130,
+        "coordinates": 121
+      },
+      {
+        "p": 1,
+        "q": 2,
+        "sections": 258,
+        "coordinates": 258
+      },
+      {
+        "p": 1,
+        "q": 3,
+        "sections": 395,
+        "coordinates": 395
+      },
+      {
+        "p": 1,
+        "q": 4,
+        "sections": 541,
+        "coordinates": 541
+      },
+      {
+        "p": 1,
+        "q": 5,
+        "sections": 696,
+        "coordinates": 696
+      },
+      {
+        "p": 1,
+        "q": 6,
+        "sections": 860,
+        "coordinates": 860
+      },
+      {
+        "p": 2,
+        "q": 0,
+        "sections": 30,
+        "coordinates": 30
+      },
+      {
+        "p": 2,
+        "q": 1,
+        "sections": 258,
+        "coordinates": 258
+      },
+      {
+        "p": 2,
+        "q": 2,
+        "sections": 495,
+        "coordinates": 495
+      },
+      {
+        "p": 2,
+        "q": 3,
+        "sections": 741,
+        "coordinates": 741
+      },
+      {
+        "p": 2,
+        "q": 4,
+        "sections": 996,
+        "coordinates": 996
+      },
+      {
+        "p": 2,
+        "q": 5,
+        "sections": 1260,
+        "coordinates": 1260
+      },
+      {
+        "p": 2,
+        "q": 6,
+        "sections": 1533,
+        "coordinates": 1533
+      },
+      {
+        "p": 3,
+        "q": 0,
+        "sections": 58,
+        "coordinates": 58
+      },
+      {
+        "p": 3,
+        "q": 1,
+        "sections": 395,
+        "coordinates": 395
+      },
+      {
+        "p": 3,
+        "q": 2,
+        "sections": 741,
+        "coordinates": 741
+      },
+      {
+        "p": 3,
+        "q": 3,
+        "sections": 1096,
+        "coordinates": 1096
+      },
+      {
+        "p": 3,
+        "q": 4,
+        "sections": 1460,
+        "coordinates": 1460
+      },
+      {
+        "p": 3,
+        "q": 5,
+        "sections": 1833,
+        "coordinates": 1833
+      },
+      {
+        "p": 3,
+        "q": 6,
+        "sections": 2215,
+        "coordinates": 2215
+      },
+      {
+        "p": 4,
+        "q": 0,
+        "sections": 95,
+        "coordinates": 95
+      },
+      {
+        "p": 4,
+        "q": 1,
+        "sections": 541,
+        "coordinates": 541
+      },
+      {
+        "p": 4,
+        "q": 2,
+        "sections": 996,
+        "coordinates": 996
+      },
+      {
+        "p": 4,
+        "q": 3,
+        "sections": 1460,
+        "coordinates": 1460
+      },
+      {
+        "p": 4,
+        "q": 4,
+        "sections": 1933,
+        "coordinates": 1933
+      },
+      {
+        "p": 4,
+        "q": 5,
+        "sections": 2415,
+        "coordinates": 2415
+      },
+      {
+        "p": 4,
+        "q": 6,
+        "sections": 2906,
+        "coordinates": 2906
+      },
+      {
+        "p": 5,
+        "q": 0,
+        "sections": 141,
+        "coordinates": 141
+      },
+      {
+        "p": 5,
+        "q": 1,
+        "sections": 696,
+        "coordinates": 696
+      },
+      {
+        "p": 5,
+        "q": 2,
+        "sections": 1260,
+        "coordinates": 1260
+      },
+      {
+        "p": 5,
+        "q": 3,
+        "sections": 1833,
+        "coordinates": 1833
+      },
+      {
+        "p": 5,
+        "q": 4,
+        "sections": 2415,
+        "coordinates": 2415
+      },
+      {
+        "p": 5,
+        "q": 5,
+        "sections": 3006,
+        "coordinates": 3006
+      },
+      {
+        "p": 5,
+        "q": 6,
+        "sections": 3606,
+        "coordinates": 3606
+      },
+      {
+        "p": 6,
+        "q": 0,
+        "sections": 196,
+        "coordinates": 196
+      },
+      {
+        "p": 6,
+        "q": 1,
+        "sections": 860,
+        "coordinates": 860
+      },
+      {
+        "p": 6,
+        "q": 2,
+        "sections": 1533,
+        "coordinates": 1533
+      },
+      {
+        "p": 6,
+        "q": 3,
+        "sections": 2215,
+        "coordinates": 2215
+      },
+      {
+        "p": 6,
+        "q": 4,
+        "sections": 2906,
+        "coordinates": 2906
+      },
+      {
+        "p": 6,
+        "q": 5,
+        "sections": 3606,
+        "coordinates": 3606
+      },
+      {
+        "p": 6,
+        "q": 6,
+        "sections": 4315,
+        "coordinates": 4315
+      }
+    ]
+  }
+}

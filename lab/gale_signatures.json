@@ -1,0 +1,53 @@
+[
+  {
+    "d": 3,
+    "dimension": 6,
+    "first": [
+      "4/3",
+      "3/2",
+      "8/5"
+    ],
+    "second": [
+      "-231/1040",
+      "147/65",
+      "77/200"
+    ],
+    "projectivity_invariance_verified": true
+  },
+  {
+    "d": 4,
+    "dimension": 8,
+    "first": [
+      "4/3",
+      "3/2",
+      "8/5",
+      "5/3"
+    ],
+    "second": [
+      "-231/1040",
+      "147/65",
+      "77/200",
+      "-1029/160"
+    ],
+    "projectivity_invariance_verified": true
+  },
+  {
+    "d": 5,
+    "dimension": 10,
+    "first": [
+      "4/3",
+      "3/2",
+      "8/5",
+      "5/3",
+      "12/7"
+    ],
+    "second": [
+      "-231/1040",
+      "147/65",
+      "77/200",
+      "-1029/160",
+      "-11/30"
+    ],
+    "projectivity_invariance_verified": true
+  }
+]

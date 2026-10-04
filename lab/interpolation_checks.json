@@ -1,0 +1,14 @@
+[
+  {
+    "d": 3,
+    "all_interpolation_ranks_maximal_over_Q": true
+  },
+  {
+    "d": 4,
+    "all_interpolation_ranks_maximal_over_Q": true
+  },
+  {
+    "d": 5,
+    "all_interpolation_ranks_maximal_over_Q": true
+  }
+]
